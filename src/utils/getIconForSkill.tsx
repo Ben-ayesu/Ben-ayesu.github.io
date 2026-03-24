@@ -11,6 +11,7 @@ import {
   faAndroid,
   faConfluence,
   faJira,
+  faSwift,
 } from "@fortawesome/free-brands-svg-icons";
 import {
   faDatabase,
@@ -18,6 +19,9 @@ import {
   faPeopleGroup,
   faFileCode,
   faQuestionCircle,
+  faVial,
+  faPaintBrush,
+  faFire,
 } from "@fortawesome/free-solid-svg-icons";
 
 const getIconForSkill = (skillName: string) => {
@@ -32,6 +36,7 @@ const getIconForSkill = (skillName: string) => {
     case "Typescript":
       return faJsSquare;
     case "React JS":
+    case "React Native":
       return faReact;
     case "Python":
       return faPython;
@@ -39,6 +44,9 @@ const getIconForSkill = (skillName: string) => {
       return faNodeJs;
     case "Java":
       return faJava;
+    case "Swift":
+    case "SwiftUI":
+      return faSwift;
     case "Kotlin":
     case "Google Generative AI":
     case "IntelliJ":
@@ -47,10 +55,16 @@ const getIconForSkill = (skillName: string) => {
     case "MySQL":
     case "RESTful APIs":
       return faDatabase;
+    case "Firebase":
+      return faFire;
     case "Jetpack Compose":
       return faAndroid;
     case "Git":
       return faGitAlt;
+    case "Unit Testing":
+      return faVial;
+    case "Tailwind CSS":
+      return faPaintBrush;
     case "Testing":
     case "Google Cloud":
       return faToolbox;

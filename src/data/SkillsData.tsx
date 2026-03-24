@@ -7,22 +7,34 @@ const skills = [
       { name: "Sass", proficiency: 4 },
       { name: "JavaScript", proficiency: 5 },
       { name: "React JS", proficiency: 4 },
-      { name: "Typescript", proficiency: 3 },
+      { name: "Typescript", proficiency: 4 },
+      { name: "Tailwind CSS", proficiency: 4 },
+    ],
+  },
+  {
+    category: "Mobile",
+    list: [
+      { name: "React Native", proficiency: 4 },
       { name: "Kotlin", proficiency: 4 },
+      { name: "Swift", proficiency: 3 },
+      { name: "SwiftUI", proficiency: 3 },
+      { name: "Jetpack Compose", proficiency: 4 },
     ],
   },
   {
     category: "Backend",
     list: [
       { name: "Node.js", proficiency: 3 },
+      { name: "Java", proficiency: 3 },
+      { name: "Python", proficiency: 3 },
       { name: "MySQL", proficiency: 3 },
       { name: "RESTful APIs", proficiency: 4 },
+      { name: "Firebase", proficiency: 3 },
     ],
   },
   {
     category: "Tools & Technologies",
     list: [
-      { name: "Jetpack Compose", proficiency: 4 },
       { name: "Git", proficiency: 5 },
       { name: "Unit Testing", proficiency: 4 },
       { name: "Google Generative AI", proficiency: 3 },
